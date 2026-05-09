@@ -4,21 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Ivana Watson — Esthetician, Software Developer & Beauty Tech Innovator. Where Beauty Meets Science.">
-<meta property="og:title" content="13Esthetics | Where Beauty Meets Science">
+<meta property="og:title" content="Ivana Watson | Where Beauty Meets Science">
 <meta property="og:url" content="https://www.ivanawatson.com">
 <title>Ivana Watson | 13Esthetics — Where Beauty Meets Science</title>
 
-<!--
-╔══════════════════════════════════════════════════════════════╗
-║  REPLACE BEFORE GOING LIVE — 4 placeholders                 ║
-║  1. G-XXXXXXXXXX   → Google Analytics 4 Measurement ID      ║
-║  2. YOUR_PIXEL_ID  → Meta / Facebook Pixel ID               ║
-║  3. YOUR_CLIENT_ID → PayPal REST App Client ID              ║
-║  4. YOUR_MEETING_ID→ Your Zoom personal meeting number      ║
-╚══════════════════════════════════════════════════════════════╝
--->
-
-<!-- Google Analytics 4 -->
+<!-- Google Analytics 4 — replace G-XXXXXXXXXX -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
 <script>
   window.dataLayer=window.dataLayer||[];
@@ -27,26 +17,20 @@
   gtag('config','G-XXXXXXXXXX');
 </script>
 
-<!-- Meta (Facebook + Instagram) Pixel -->
+<!-- Meta Pixel — replace YOUR_PIXEL_ID -->
 <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
 n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
 (window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init','YOUR_PIXEL_ID');
-fbq('track','PageView');
+fbq('init','YOUR_PIXEL_ID');fbq('track','PageView');
 </script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/></noscript>
 
-<!-- PayPal SDK -->
+<!-- PayPal SDK — replace YOUR_CLIENT_ID -->
 <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID&currency=USD"></script>
 
-<!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-<!-- Google Fonts: Cormorant Garamond (glam headlines) + Inter (clean body) -->
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 
 <style>
@@ -55,6 +39,7 @@ fbq('track','PageView');
   --gold:#B08040;--lg:#C09050;--champagne:#EEE0C0;
   --warm:#F5E8D0;--slate:#5A4030;--white:#fff;
   --shadow:0 4px 24px rgba(58,32,16,.08);
+  --circuit: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cstyle%3E.t%7Bstroke:%23C9A84C%3Bstroke-opacity:.07%3Bfill:none%7D.d%7Bfill:%23C9A84C%3Bfill-opacity:.1%7D%3C/style%3E%3Cline class='t' stroke-width='1.5' x1='0' y1='60' x2='90' y2='60'/%3E%3Cline class='t' stroke-width='1.5' x1='110' y1='60' x2='300' y2='60'/%3E%3Cline class='t' stroke-width='1.5' x1='0' y1='150' x2='80' y2='150'/%3E%3Cline class='t' stroke-width='1.5' x1='100' y1='150' x2='210' y2='150'/%3E%3Cline class='t' stroke-width='1.5' x1='230' y1='150' x2='300' y2='150'/%3E%3Cline class='t' stroke-width='1.5' x1='0' y1='240' x2='160' y2='240'/%3E%3Cline class='t' stroke-width='1.5' x1='180' y1='240' x2='300' y2='240'/%3E%3Cline class='t' stroke-width='1.5' x1='70' y1='0' x2='70' y2='50'/%3E%3Cline class='t' stroke-width='1.5' x1='70' y1='70' x2='70' y2='140'/%3E%3Cline class='t' stroke-width='1.5' x1='70' y1='160' x2='70' y2='300'/%3E%3Cline class='t' stroke-width='1.5' x1='170' y1='0' x2='170' y2='60'/%3E%3Cline class='t' stroke-width='1.5' x1='170' y1='80' x2='170' y2='160'/%3E%3Cline class='t' stroke-width='1.5' x1='170' y1='180' x2='170' y2='300'/%3E%3Cline class='t' stroke-width='1.5' x1='250' y1='0' x2='250' y2='140'/%3E%3Cline class='t' stroke-width='1.5' x1='250' y1='160' x2='250' y2='300'/%3E%3Cpolyline class='t' stroke-width='1.5' points='90,60 90,100 0,100'/%3E%3Cpolyline class='t' stroke-width='1.5' points='210,150 210,110 300,110'/%3E%3Cpolyline class='t' stroke-width='1.5' points='160,240 160,270 220,270'/%3E%3Ccircle class='d' cx='70' cy='60' r='4'/%3E%3Ccircle class='d' cx='170' cy='60' r='4'/%3E%3Ccircle class='d' cx='250' cy='60' r='4'/%3E%3Ccircle class='d' cx='70' cy='150' r='4'/%3E%3Ccircle class='d' cx='170' cy='150' r='4'/%3E%3Ccircle class='d' cx='250' cy='150' r='4'/%3E%3Ccircle class='d' cx='70' cy='240' r='4'/%3E%3Ccircle class='d' cx='170' cy='240' r='4'/%3E%3Ccircle class='d' cx='250' cy='240' r='4'/%3E%3Ccircle class='d' cx='90' cy='100' r='4'/%3E%3Ccircle class='d' cx='210' cy='110' r='4'/%3E%3Ccircle class='d' cx='160' cy='270' r='4'/%3E%3Crect class='t' stroke-width='1' x='100' y='65' width='50' height='40' rx='2'/%3E%3Cline class='t' stroke-width='1' x1='105' y1='65' x2='105' y2='60'/%3E%3Cline class='t' stroke-width='1' x1='120' y1='65' x2='120' y2='60'/%3E%3Cline class='t' stroke-width='1' x1='135' y1='65' x2='135' y2='60'/%3E%3Cline class='t' stroke-width='1' x1='105' y1='105' x2='105' y2='110'/%3E%3Cline class='t' stroke-width='1' x1='125' y1='105' x2='125' y2='110'/%3E%3Crect class='t' stroke-width='1' x='185' y='160' width='45' height='35' rx='2'/%3E%3Cline class='t' stroke-width='1' x1='190' y1='160' x2='190' y2='150'/%3E%3Cline class='t' stroke-width='1' x1='205' y1='160' x2='205' y2='150'/%3E%3Cline class='t' stroke-width='1' x1='220' y1='160' x2='220' y2='150'/%3E%3Cline class='t' stroke-width='1' x1='190' y1='195' x2='190' y2='205'/%3E%3Cline class='t' stroke-width='1' x1='210' y1='195' x2='210' y2='205'/%3E%3Ccircle class='t' stroke-width='1.5' cx='90' cy='100' r='6'/%3E%3Ccircle class='t' stroke-width='1.5' cx='210' cy='110' r='6'/%3E%3Cline class='t' stroke-width='2' x1='10' y1='170' x2='35' y2='170'/%3E%3Cline class='t' stroke-width='2' x1='10' y1='178' x2='35' y2='178'/%3E%3Cline class='t' stroke-width='1' x1='22' y1='160' x2='22' y2='170'/%3E%3Cline class='t' stroke-width='1' x1='22' y1='178' x2='22' y2='188'/%3E%3Cline class='t' stroke-width='2' x1='265' y1='80' x2='290' y2='80'/%3E%3Cline class='t' stroke-width='2' x1='265' y1='88' x2='290' y2='88'/%3E%3Cline class='t' stroke-width='1' x1='277' y1='70' x2='277' y2='80'/%3E%3Cline class='t' stroke-width='1' x1='277' y1='88' x2='277' y2='98'/%3E%3Crect class='t' stroke-width='1' x='20' y='255' width='20' height='9' rx='1'/%3E%3Cline class='t' stroke-width='1' x1='10' y1='259' x2='20' y2='259'/%3E%3Cline class='t' stroke-width='1' x1='40' y1='259' x2='52' y2='259'/%3E%3Crect class='t' stroke-width='1' x='270' y='200' width='20' height='9' rx='1'/%3E%3Cline class='t' stroke-width='1' x1='260' y1='204' x2='270' y2='204'/%3E%3Cline class='t' stroke-width='1' x1='290' y1='204' x2='300' y2='204'/%3E%3C/svg%3E");
 }
 *{margin:0;padding:0;box-sizing:border-box;}
 html{scroll-behavior:smooth;}
@@ -72,7 +57,15 @@ section{padding:88px 6%;}
 .btn-g:hover{background:var(--lg);color:var(--white);}
 .btn-o{background:transparent;border:1px solid var(--dark);color:var(--dark);}
 .btn-o:hover{background:var(--dark);color:var(--ivory);}
-.card{background:var(--white);border:1px solid var(--champagne);padding:28px;}
+
+/* ── MOTHERBOARD BACKGROUND on all light sections ─────── */
+#home,#about,#skills,#portfolio,#analytics,#contact{
+  background-image:var(--circuit);
+  background-size:300px 300px;
+  background-repeat:repeat;
+}
+#about,#portfolio,#contact{background-color:var(--white);}
+#home,#skills,#analytics{background-color:var(--ivory);}
 
 /* ── NAVIGATION ─────────────────────────────────────────── */
 nav{position:fixed;top:0;left:0;right:0;z-index:999;background:rgba(250,245,237,.97);border-bottom:1px solid var(--champagne);padding:0 6%;display:flex;align-items:center;justify-content:space-between;height:68px;transition:box-shadow .3s;}
@@ -106,9 +99,7 @@ nav.scrolled{box-shadow:var(--shadow);}
 .stat-l{font-size:10px;color:var(--medium);letter-spacing:.3px;line-height:1.4;}
 
 /* ── ABOUT ──────────────────────────────────────────────── */
-#about{background:var(--white);}
 .about-g{display:grid;grid-template-columns:1fr 1.7fr;gap:64px;align-items:start;}
-.about-img{width:100%;aspect-ratio:3/4;object-fit:cover;background:var(--warm);display:flex;align-items:center;justify-content:center;}
 .about-badge{background:var(--gold);color:var(--white);padding:16px 20px;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;text-align:center;margin-top:-2px;}
 .about-p{color:var(--slate);margin-bottom:18px;line-height:1.9;font-size:14px;}
 .meta-g{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:28px 0;}
@@ -120,7 +111,6 @@ nav.scrolled{box-shadow:var(--shadow);}
 .badge{background:var(--ivory);border:1px solid var(--champagne);padding:5px 12px;font-size:11px;color:var(--medium);}
 
 /* ── SKILLS ─────────────────────────────────────────────── */
-#skills{background:var(--ivory);}
 .skills-g{display:grid;grid-template-columns:1fr 1fr;gap:64px;}
 .skill-lbl{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:22px;display:block;}
 .sk-item{margin-bottom:18px;}
@@ -136,7 +126,6 @@ nav.scrolled{box-shadow:var(--shadow);}
 .rd-info a{font-size:10px;color:var(--gold);letter-spacing:.3px;}
 
 /* ── PORTFOLIO ──────────────────────────────────────────── */
-#portfolio{background:var(--white);}
 #repos{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;margin-top:40px;}
 .repo-card{background:var(--ivory);border:1px solid var(--champagne);padding:22px;transition:border-color .2s;}
 .repo-card:hover{border-color:var(--gold);}
@@ -146,24 +135,12 @@ nav.scrolled{box-shadow:var(--shadow);}
 .lang-dot{width:8px;height:8px;border-radius:50%;background:var(--gold);margin-right:3px;}
 .repo-a{display:inline-block;margin-top:14px;font-size:10px;letter-spacing:.5px;color:var(--gold);text-transform:uppercase;border-bottom:1px solid var(--champagne);padding-bottom:2px;}
 
-/* ── DEVICES SHOP ───────────────────────────────────────── */
-#devices{background:var(--dark);}
+/* ── SHOP CTA ───────────────────────────────────────────── */
+#devices{background:var(--dark);text-align:center;padding:80px 6%;}
 #devices .lbl{color:var(--champagne);}
 #devices .sec-h{color:var(--ivory);}
-#devices .sec-p{color:rgba(238,224,192,.7);}
-.dev-g{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px;}
-.dev-card{background:rgba(255,255,255,.04);border:1px solid rgba(238,224,192,.15);padding:28px;transition:border-color .3s;}
-.dev-card:hover{border-color:var(--gold);}
-.dev-img{width:100%;height:190px;background:rgba(255,255,255,.06);display:flex;align-items:center;justify-content:center;margin-bottom:18px;font-size:2.8rem;}
-.dev-n{font-family:'Cormorant Garamond',serif;font-size:1.35rem;color:var(--champagne);margin-bottom:7px;}
-.dev-d{font-size:11px;color:rgba(238,224,192,.65);margin-bottom:10px;line-height:1.7;}
-.dev-p{font-size:1.4rem;font-family:'Cormorant Garamond',serif;color:var(--gold);margin-bottom:18px;}
-.pp-wrap{min-height:45px;}
-.dev-footer{text-align:center;margin-top:44px;}
-.dev-footer p{font-size:12px;color:rgba(238,224,192,.5);margin-bottom:14px;}
 
-/* ── ANALYTICS HUB ──────────────────────────────────────── */
-#analytics{background:var(--ivory);}
+/* ── ANALYTICS ──────────────────────────────────────────── */
 .an-g{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px;margin-top:40px;}
 .an-card{background:var(--white);border:1px solid var(--champagne);padding:22px;text-align:center;transition:border-color .2s;}
 .an-card:hover{border-color:var(--gold);}
@@ -173,7 +150,6 @@ nav.scrolled{box-shadow:var(--shadow);}
 .an-a{display:inline-block;margin-top:12px;font-size:10px;color:var(--gold);text-transform:uppercase;letter-spacing:.5px;}
 
 /* ── CONTACT ────────────────────────────────────────────── */
-#contact{background:var(--white);}
 .con-g{display:grid;grid-template-columns:1fr 1fr;gap:60px;}
 .con-p{color:var(--medium);font-size:13px;line-height:1.8;margin-bottom:24px;}
 .ci{display:flex;align-items:center;gap:12px;margin-bottom:14px;font-size:12px;color:var(--medium);}
@@ -194,7 +170,7 @@ footer{background:var(--dark);color:var(--champagne);padding:36px 6%;display:fle
 .f-links a{font-size:10px;color:rgba(238,224,192,.4);text-transform:uppercase;letter-spacing:.5px;transition:color .2s;}
 .f-links a:hover{color:var(--gold);}
 
-/* ── AI CHAT WIDGET ─────────────────────────────────────── */
+/* ── CHAT ───────────────────────────────────────────────── */
 #chat-btn{position:fixed;bottom:28px;right:28px;width:54px;height:54px;background:var(--gold);border:none;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:20px;color:var(--white);z-index:900;box-shadow:0 4px 20px rgba(176,128,64,.45);transition:.3s;}
 #chat-btn:hover{background:var(--lg);transform:scale(1.06);}
 #chat-panel{position:fixed;bottom:96px;right:28px;width:356px;height:476px;background:var(--white);border:1px solid var(--champagne);z-index:900;display:none;flex-direction:column;box-shadow:var(--shadow);}
@@ -218,7 +194,7 @@ footer{background:var(--dark);color:var(--champagne);padding:36px 6%;display:fle
 #zoom-modal.open{display:flex;}
 .zm-box{background:var(--white);padding:44px;max-width:460px;width:92%;text-align:center;position:relative;}
 .zm-box h3{font-family:'Cormorant Garamond',serif;font-size:2rem;color:var(--dark);margin-bottom:10px;}
-.zm-box > p{font-size:12px;color:var(--medium);margin-bottom:24px;line-height:1.7;}
+.zm-box>p{font-size:12px;color:var(--medium);margin-bottom:24px;line-height:1.7;}
 .zm-close{position:absolute;top:14px;right:18px;background:none;border:none;font-size:18px;cursor:pointer;color:var(--medium);}
 .zm-steps{text-align:left;margin-bottom:24px;}
 .zm-step{display:flex;gap:12px;align-items:flex-start;margin-bottom:10px;font-size:12px;color:var(--slate);}
@@ -226,23 +202,15 @@ footer{background:var(--dark);color:var(--champagne);padding:36px 6%;display:fle
 
 /* ── RESPONSIVE ─────────────────────────────────────────── */
 @media(max-width:768px){
-  .nav-ul{display:none;} .ham{display:flex;}
+  .nav-ul{display:none;}.ham{display:flex;}
   .about-g,.skills-g,.con-g{grid-template-columns:1fr;}
-  .hero-stats{gap:24px;} section{padding:64px 5%;}
+  .hero-stats{gap:24px;}section{padding:64px 5%;}
   #chat-panel{width:calc(100vw - 32px);right:16px;}
-}
-
-/* ── MOTHERBOARD SVG BACKGROUND ─────────────────────────── */
-#home,#about,#skills,#portfolio,#analytics,#contact{
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cdefs%3E%3Cstyle%3E.t%7Bstroke:%23C9A84C;stroke-opacity:.09;fill:none;%7D.d%7Bfill:%23C9A84C;fill-opacity:.09;%7D%3C/style%3E%3C/defs%3E%3C!-- Horizontal traces --%3E%3Cline class='t' stroke-width='1.5' x1='0' y1='40' x2='120' y2='40'/%3E%3Cline class='t' stroke-width='1.5' x1='140' y1='40' x2='260' y2='40'/%3E%3Cline class='t' stroke-width='1.5' x1='280' y1='40' x2='400' y2='40'/%3E%3Cline class='t' stroke-width='1.5' x1='0' y1='100' x2='80' y2='100'/%3E%3Cline class='t' stroke-width='1.5' x1='100' y1='100' x2='200' y2='100'/%3E%3Cline class='t' stroke-width='1.5' x1='220' y1='100' x2='400' y2='100'/%3E%3Cline class='t' stroke-width='1.5' x1='0' y1='160' x2='150' y2='160'/%3E%3Cline class='t' stroke-width='1.5' x1='170' y1='160' x2='320' y2='160'/%3E%3Cline class='t' stroke-width='1.5' x1='340' y1='160' x2='400' y2='160'/%3E%3Cline class='t' stroke-width='1.5' x1='0' y1='220' x2='90' y2='220'/%3E%3Cline class='t' stroke-width='1.5' x1='110' y1='220' x2='290' y2='220'/%3E%3Cline class='t' stroke-width='1.5' x1='310' y1='220' x2='400' y2='220'/%3E%3Cline class='t' stroke-width='1.5' x1='0' y1='280' x2='180' y2='280'/%3E%3Cline class='t' stroke-width='1.5' x1='200' y1='280' x2='400' y2='280'/%3E%3Cline class='t' stroke-width='1.5' x1='0' y1='340' x2='70' y2='340'/%3E%3Cline class='t' stroke-width='1.5' x1='90' y1='340' x2='240' y2='340'/%3E%3Cline class='t' stroke-width='1.5' x1='260' y1='340' x2='400' y2='340'/%3E%3C!-- Vertical traces --%3E%3Cline class='t' stroke-width='1.5' x1='60' y1='0' x2='60' y2='90'/%3E%3Cline class='t' stroke-width='1.5' x1='60' y1='110' x2='60' y2='210'/%3E%3Cline class='t' stroke-width='1.5' x1='60' y1='230' x2='60' y2='400'/%3E%3Cline class='t' stroke-width='1.5' x1='130' y1='0' x2='130' y2='60'/%3E%3Cline class='t' stroke-width='1.5' x1='130' y1='80' x2='130' y2='180'/%3E%3Cline class='t' stroke-width='1.5' x1='130' y1='200' x2='130' y2='400'/%3E%3Cline class='t' stroke-width='1.5' x1='200' y1='0' x2='200' y2='120'/%3E%3Cline class='t' stroke-width='1.5' x1='200' y1='140' x2='200' y2='300'/%3E%3Cline class='t' stroke-width='1.5' x1='200' y1='320' x2='200' y2='400'/%3E%3Cline class='t' stroke-width='1.5' x1='270' y1='0' x2='270' y2='80'/%3E%3Cline class='t' stroke-width='1.5' x1='270' y1='100' x2='270' y2='240'/%3E%3Cline class='t' stroke-width='1.5' x1='270' y1='260' x2='270' y2='400'/%3E%3Cline class='t' stroke-width='1.5' x1='340' y1='0' x2='340' y2='150'/%3E%3Cline class='t' stroke-width='1.5' x1='340' y1='170' x2='340' y2='310'/%3E%3Cline class='t' stroke-width='1.5' x1='340' y1='330' x2='340' y2='400'/%3E%3C!-- 90-degree trace corners --%3E%3Cpolyline class='t' stroke-width='1.5' points='0,70 40,70 40,100'/%3E%3Cpolyline class='t' stroke-width='1.5' points='310,40 310,70 370,70'/%3E%3Cpolyline class='t' stroke-width='1.5' points='160,160 160,190 220,190'/%3E%3Cpolyline class='t' stroke-width='1.5' points='80,280 80,310 130,310'/%3E%3Cpolyline class='t' stroke-width='1.5' points='240,340 240,370 300,370'/%3E%3Cpolyline class='t' stroke-width='1.5' points='370,220 370,260 400,260'/%3E%3Cpolyline class='t' stroke-width='1.5' points='0,190 30,190 30,220'/%3E%3Cpolyline class='t' stroke-width='1.5' points='290,100 290,130 350,130'/%3E%3C!-- Solder pad dots --%3E%3Ccircle class='d' cx='60' cy='40' r='4'/%3E%3Ccircle class='d' cx='130' cy='40' r='4'/%3E%3Ccircle class='d' cx='270' cy='40' r='4'/%3E%3Ccircle class='d' cx='60' cy='100' r='4'/%3E%3Ccircle class='d' cx='200' cy='100' r='4'/%3E%3Ccircle class='d' cx='340' cy='100' r='4'/%3E%3Ccircle class='d' cx='130' cy='160' r='4'/%3E%3Ccircle class='d' cx='270' cy='160' r='4'/%3E%3Ccircle class='d' cx='60' cy='220' r='4'/%3E%3Ccircle class='d' cx='200' cy='220' r='4'/%3E%3Ccircle class='d' cx='340' cy='220' r='4'/%3E%3Ccircle class='d' cx='130' cy='280' r='4'/%3E%3Ccircle class='d' cx='270' cy='280' r='4'/%3E%3Ccircle class='d' cx='60' cy='340' r='4'/%3E%3Ccircle class='d' cx='200' cy='340' r='4'/%3E%3Ccircle class='d' cx='340' cy='340' r='4'/%3E%3C!-- IC chip outlines --%3E%3Crect class='t' stroke-width='1' x='150' y='50' width='40' height='30' rx='2'/%3E%3Crect class='t' stroke-width='1' x='230' y='115' width='50' height='35' rx='2'/%3E%3Crect class='t' stroke-width='1' x='80' y='230' width='40' height='40' rx='2'/%3E%3Crect class='t' stroke-width='1' x='290' y='175' width='35' height='30' rx='2'/%3E%3Crect class='t' stroke-width='1' x='150' y='290' width='45' height='35' rx='2'/%3E%3Crect class='t' stroke-width='1' x='30' y='110' width='30' height='20' rx='2'/%3E%3Crect class='t' stroke-width='1' x='355' y='240' width='30' height='25' rx='2'/%3E%3C!-- IC chip pins --%3E%3Cline class='t' stroke-width='1' x1='155' y1='50' x2='155' y2='40'/%3E%3Cline class='t' stroke-width='1' x1='165' y1='50' x2='165' y2='40'/%3E%3Cline class='t' stroke-width='1' x1='175' y1='50' x2='175' y2='40'/%3E%3Cline class='t' stroke-width='1' x1='185' y1='50' x2='185' y2='40'/%3E%3Cline class='t' stroke-width='1' x1='155' y1='80' x2='155' y2='90'/%3E%3Cline class='t' stroke-width='1' x1='175' y1='80' x2='175' y2='90'/%3E%3Cline class='t' stroke-width='1' x1='235' y1='125' x2='235' y2='115'/%3E%3Cline class='t' stroke-width='1' x1='250' y1='125' x2='250' y2='115'/%3E%3Cline class='t' stroke-width='1' x1='265' y1='125' x2='265' y2='115'/%3E%3Cline class='t' stroke-width='1' x1='235' y1='150' x2='235' y2='160'/%3E%3Cline class='t' stroke-width='1' x1='255' y1='150' x2='255' y2='160'/%3E%3C!-- Small vias (through-hole circles) --%3E%3Ccircle class='t' stroke-width='1.5' cx='40' cy='70' r='5'/%3E%3Ccircle class='t' stroke-width='1.5' cx='310' cy='55' r='5'/%3E%3Ccircle class='t' stroke-width='1.5' cx='160' cy='190' r='5'/%3E%3Ccircle class='t' stroke-width='1.5' cx='80' cy='310' r='5'/%3E%3Ccircle class='t' stroke-width='1.5' cx='240' cy='370' r='5'/%3E%3Ccircle class='t' stroke-width='1.5' cx='370' cy='260' r='5'/%3E%3Ccircle class='t' stroke-width='1.5' cx='30' cy='220' r='4'/%3E%3Ccircle class='t' stroke-width='1.5' cx='290' cy='130' r='4'/%3E%3C!-- Capacitor symbols --%3E%3Cline class='t' stroke-width='2' x1='95' y1='155' x2='115' y2='155'/%3E%3Cline class='t' stroke-width='2' x1='95' y1='162' x2='115' y2='162'/%3E%3Cline class='t' stroke-width='1' x1='105' y1='145' x2='105' y2='155'/%3E%3Cline class='t' stroke-width='1' x1='105' y1='162' x2='105' y2='172'/%3E%3Cline class='t' stroke-width='2' x1='355' y1='95' x2='375' y2='95'/%3E%3Cline class='t' stroke-width='2' x1='355' y1='102' x2='375' y2='102'/%3E%3Cline class='t' stroke-width='1' x1='365' y1='85' x2='365' y2='95'/%3E%3Cline class='t' stroke-width='1' x1='365' y1='102' x2='365' y2='112'/%3E%3C!-- Resistor symbols --%3E%3Crect class='t' stroke-width='1' x='210' y='255' width='20' height='10' rx='1'/%3E%3Cline class='t' stroke-width='1' x1='200' y1='260' x2='210' y2='260'/%3E%3Cline class='t' stroke-width='1' x1='230' y1='260' x2='240' y2='260'/%3E%3Crect class='t' stroke-width='1' x='305' y='315' width='20' height='10' rx='1'/%3E%3Cline class='t' stroke-width='1' x1='295' y1='320' x2='305' y2='320'/%3E%3Cline class='t' stroke-width='1' x1='325' y1='320' x2='335' y2='320'/%3E%3C/svg%3E");
-  background-size: 400px 400px;
-  background-repeat: repeat;
 }
 </style>
 </head>
 <body>
 
-<!-- ══ NAVIGATION ══════════════════════════════════════════ -->
 <nav id="nav">
   <div class="logo">13<span>Esthetics</span></div>
   <ul class="nav-ul">
@@ -266,11 +234,10 @@ footer{background:var(--dark);color:var(--champagne);padding:36px 6%;display:fle
     <li><a href="shop.html" onclick="closeMenu()">Shop</a></li>
     <li><a href="#analytics" onclick="closeMenu()">Analytics</a></li>
     <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
-    <li><a href="#" onclick="openZoom(event);closeMenu()">Book Zoom Consultation</a></li>
+    <li><a href="#" onclick="openZoom(event);closeMenu()">Book Zoom</a></li>
   </ul>
 </div>
 
-<!-- ══ HERO ════════════════════════════════════════════════ -->
 <section id="home">
   <div class="hero-bg-txt">13</div>
   <div class="hero-inner">
@@ -290,15 +257,14 @@ footer{background:var(--dark);color:var(--champagne);padding:36px 6%;display:fle
   </div>
 </section>
 
-<!-- ══ ABOUT ════════════════════════════════════════════════ -->
 <section id="about">
   <span class="lbl">About Me</span>
   <div class="about-g">
     <div>
-      <div class="about-img" style="width:100%;min-height:340px;">
-        <img src="https://static.wixstatic.com/media/27fe4a_8179d4c247d044cabc3a4a4e1a8aa959~mv2.jpeg/v1/crop/x_166,y_329,w_333,h_333/fill/w_280,h_280,al_c,q_80/IMG_0551.jpeg"
+      <div style="width:100%;min-height:340px;">
+        <img src="https://static.wixstatic.com/media/27fe4a_22b858e0d70641a9bb6d5a2c24db1529~mv2.jpg/v1/crop/x_50,y_0,w_924,h_924/fill/w_500,h_500,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Esthetican_edited.jpg"
           alt="Ivana Watson" style="width:100%;height:100%;object-fit:cover;display:block;"
-          onerror="this.parentElement.innerHTML='<div style=\'padding:40px;text-align:center;font-family:Cormorant Garamond,serif;font-size:3rem;color:var(--gold)\'>IW</div>'">
+          onerror="this.parentElement.innerHTML='<div style=padding:40px;text-align:center;font-family:Cormorant Garamond,serif;font-size:3rem;color:var(--gold)>IW</div>'">
       </div>
       <div class="about-badge">Ivana Watson · 13Esthetics</div>
     </div>
@@ -309,22 +275,10 @@ footer{background:var(--dark);color:var(--champagne);padding:36px 6%;display:fle
       <p class="about-p">I am also the founder of 13 Esthetics — a skincare brand where I blend technical expertise with entrepreneurial vision. This dual path has deepened my skills in project management, e-commerce, and innovative product development, especially as I explore smart anti-aging solutions and LED therapy devices.</p>
       <p class="about-p">Motivated by the intersection of technology and wellness, my long-term vision is to scale 13 Esthetics into a leading beauty tech brand — manufacturing proprietary IoT skincare devices from the ground up.</p>
       <div class="meta-g">
-        <div class="meta-i">
-          <div class="meta-l">Education</div>
-          <div class="meta-v">B.S. Software Development<small>DeVry University · Class of 2026 · GPA 4.0</small></div>
-        </div>
-        <div class="meta-i">
-          <div class="meta-l">Certifications</div>
-          <div class="meta-v">Programming Essentials<small>A.S. IT &amp; Networking</small></div>
-        </div>
-        <div class="meta-i">
-          <div class="meta-l">Esthetics License</div>
-          <div class="meta-v">Licensed Esthetician<small>Euphoria Institute · Las Vegas · 2022</small></div>
-        </div>
-        <div class="meta-i">
-          <div class="meta-l">Languages</div>
-          <div class="meta-v">English · German<small>Spanish</small></div>
-        </div>
+        <div class="meta-i"><div class="meta-l">Education</div><div class="meta-v">B.S. Software Development<small>DeVry University · Class of 2026 · GPA 4.0</small></div></div>
+        <div class="meta-i"><div class="meta-l">Certifications</div><div class="meta-v">Programming Essentials<small>A.S. IT &amp; Networking</small></div></div>
+        <div class="meta-i"><div class="meta-l">Esthetics License</div><div class="meta-v">Licensed Esthetician<small>Euphoria Institute · Las Vegas · 2022</small></div></div>
+        <div class="meta-i"><div class="meta-l">Languages</div><div class="meta-v">English · German<small>Spanish</small></div></div>
       </div>
       <div class="badges">
         <span class="badge">🎓 Dean's List — DeVry University</span>
@@ -340,11 +294,10 @@ footer{background:var(--dark);color:var(--champagne);padding:36px 6%;display:fle
   </div>
 </section>
 
-<!-- ══ SKILLS & ROADMAP ══════════════════════════════════════ -->
 <section id="skills">
   <span class="lbl">Skills &amp; Learning</span>
   <h2 class="sec-h">What I Bring to the Table</h2>
-  <p class="sec-p">Current technical skills alongside my IoT &amp; hardware design learning roadmap — because the future of beauty is engineered.</p>
+  <p class="sec-p">Current technical skills alongside my IoT &amp; hardware design learning roadmap.</p>
   <div class="skills-g">
     <div>
       <span class="skill-lbl">Technical Skills</span>
@@ -362,98 +315,34 @@ footer{background:var(--dark);color:var(--champagne);padding:36px 6%;display:fle
   </div>
 </section>
 
-<!-- ══ PORTFOLIO ════════════════════════════════════════════ -->
 <section id="portfolio">
   <span class="lbl">Portfolio</span>
   <h2 class="sec-h">GitHub Projects</h2>
   <p class="sec-p">Live repositories from GitHub — every project is a step forward.</p>
-  <div id="repos"><p style="color:var(--medium);font-size:13px;">Loading repositories from GitHub...</p></div>
+  <div id="repos"><p style="color:var(--medium);font-size:13px;">Loading repositories...</p></div>
 </section>
 
-<!-- ══ DEVICES SHOP ══════════════════════════════════════════ -->
 <section id="devices">
-  <span class="lbl">13Esthetics Shop</span>
-  <h2 class="sec-h">Skincare Devices</h2>
-  <p class="sec-p">Science-backed beauty devices — designed with purpose, built with precision.</p>
-  <div class="dev-g">
-
-    <div class="dev-card">
-      <div class="dev-img">💡</div>
-      <div class="dev-n">LED Glow Therapy Wand</div>
-      <div class="dev-d">Red &amp; blue LED light therapy targeting acne, aging, and inflammation. Clinical-grade technology designed for daily home use.</div>
-      <div class="dev-p">$89.00</div>
-      <div class="pp-wrap" id="pp-1"></div>
-    </div>
-
-    <div class="dev-card">
-      <div class="dev-img">⚡</div>
-      <div class="dev-n">Microcurrent Face Lift Tool</div>
-      <div class="dev-d">Non-invasive microcurrent technology that tones facial muscles, reduces fine lines, and boosts collagen production naturally.</div>
-      <div class="dev-p">$129.00</div>
-      <div class="pp-wrap" id="pp-2"></div>
-    </div>
-
-    <div class="dev-card">
-      <div class="dev-img">❄️</div>
-      <div class="dev-n">Cryo Glow Roller</div>
-      <div class="dev-d">Cryotherapy facial roller that de-puffs, tightens, and soothes skin — perfect for morning routines and post-treatment care.</div>
-      <div class="dev-p">$64.00</div>
-      <div class="pp-wrap" id="pp-3"></div>
-    </div>
-
-  </div>
-  <div class="dev-footer">
-    <p>Want a personalized device recommendation?</p>
-    <button class="btn btn-g" onclick="document.getElementById('chat-btn').click()">Chat With Our Beauty AI</button>
-  </div>
+  <span class="lbl">Fancies World</span>
+  <h2 class="sec-h" style="color:var(--ivory);">World Of Fancie</h2>
+  <p style="color:rgba(238,224,192,.5);font-size:14px;max-width:480px;margin:0 auto 32px;line-height:1.8;">A luxury virtual shopping world featuring skincare devices, wigs, lashes, fine jewelry, and more — all in one immersive experience.</p>
+  <a href="shop.html" class="btn btn-g" style="font-size:12px;padding:14px 40px;letter-spacing:2px;">Enter the Mall →</a>
 </section>
 
-<!-- ══ ANALYTICS HUB ════════════════════════════════════════ -->
 <section id="analytics">
   <span class="lbl">Analytics Hub</span>
-  <h2 class="sec-h">Platform Tracking — All in One Place</h2>
-  <p class="sec-p">Monitor performance across every platform from here. Click any card to open your dashboard.</p>
+  <h2 class="sec-h">Platform Tracking</h2>
+  <p class="sec-p">Monitor performance across every platform from here.</p>
   <div class="an-g">
-    <div class="an-card">
-      <div class="an-ico">📊</div>
-      <div class="an-n">Google Analytics 4</div>
-      <div class="an-d">Website traffic, conversions &amp; user behavior</div>
-      <a href="https://analytics.google.com" target="_blank" class="an-a" onclick="gtag('event','analytics_click',{platform:'google'})">Open GA4 →</a>
-    </div>
-    <div class="an-card">
-      <div class="an-ico">📘</div>
-      <div class="an-n">Facebook &amp; Instagram</div>
-      <div class="an-d">Meta Pixel — ad performance &amp; shop tracking</div>
-      <a href="https://business.facebook.com" target="_blank" class="an-a" onclick="gtag('event','analytics_click',{platform:'meta'})">Open Meta Business →</a>
-    </div>
-    <div class="an-card">
-      <div class="an-ico">▶️</div>
-      <div class="an-n">YouTube Studio</div>
-      <div class="an-d">Views, watch time &amp; subscriber growth</div>
-      <a href="https://studio.youtube.com" target="_blank" class="an-a" onclick="gtag('event','analytics_click',{platform:'youtube'})">Open YouTube Studio →</a>
-    </div>
-    <div class="an-card">
-      <div class="an-ico">🔍</div>
-      <div class="an-n">Search Console</div>
-      <div class="an-d">SEO performance, impressions &amp; clicks</div>
-      <a href="https://search.google.com/search-console" target="_blank" class="an-a">Open Console →</a>
-    </div>
-    <div class="an-card">
-      <div class="an-ico">📸</div>
-      <div class="an-n">Instagram Insights</div>
-      <div class="an-d">Reels, followers &amp; engagement rates</div>
-      <a href="https://www.instagram.com/13esthetics/" target="_blank" class="an-a" onclick="gtag('event','analytics_click',{platform:'instagram'})">Open Instagram →</a>
-    </div>
-    <div class="an-card">
-      <div class="an-ico">💼</div>
-      <div class="an-n">LinkedIn Analytics</div>
-      <div class="an-d">Profile views, post reach &amp; connections</div>
-      <a href="https://www.linkedin.com/in/ivana-watson-b45919aa/" target="_blank" class="an-a">Open LinkedIn →</a>
-    </div>
+    <div class="an-card"><div class="an-ico">📊</div><div class="an-n">Google Analytics 4</div><div class="an-d">Website traffic, conversions &amp; user behavior</div><a href="https://analytics.google.com" target="_blank" class="an-a">Open GA4 →</a></div>
+    <div class="an-card"><div class="an-ico">📘</div><div class="an-n">Facebook &amp; Instagram</div><div class="an-d">Meta Pixel — ad performance &amp; shop tracking</div><a href="https://business.facebook.com" target="_blank" class="an-a">Open Meta Business →</a></div>
+    <div class="an-card"><div class="an-ico">▶️</div><div class="an-n">YouTube Studio</div><div class="an-d">Views, watch time &amp; subscriber growth</div><a href="https://studio.youtube.com" target="_blank" class="an-a">Open YouTube Studio →</a></div>
+    <div class="an-card"><div class="an-ico">🔍</div><div class="an-n">Search Console</div><div class="an-d">SEO performance, impressions &amp; clicks</div><a href="https://search.google.com/search-console" target="_blank" class="an-a">Open Console →</a></div>
+    <div class="an-card"><div class="an-ico">📸</div><div class="an-n">Instagram Insights</div><div class="an-d">Reels, followers &amp; engagement rates</div><a href="https://www.instagram.com/13esthetics/" target="_blank" class="an-a">Open Instagram →</a></div>
+    <div class="an-card"><div class="an-ico">💼</div><div class="an-n">LinkedIn Analytics</div><div class="an-d">Profile views, post reach &amp; connections</div><a href="https://www.linkedin.com/in/ivana-watson-b45919aa/" target="_blank" class="an-a">Open LinkedIn →</a></div>
   </div>
 </section>
 
-<!-- ══ CONTACT ══════════════════════════════════════════════ -->
 <section id="contact">
   <span class="lbl">Get In Touch</span>
   <h2 class="sec-h">Let's Connect</h2>
@@ -464,15 +353,15 @@ footer{background:var(--dark);color:var(--champagne);padding:36px 6%;display:fle
       <div class="ci"><i class="fa fa-globe"></i><span>www.ivanawatson.com</span></div>
       <div class="ci"><i class="fa fa-map-marker-alt"></i><span>Las Vegas, NV</span></div>
       <div style="display:flex;flex-direction:column;gap:10px;margin-top:20px;">
-        <button class="btn btn-g" onclick="openZoom(event)" style="text-align:left;">📹 Book a Zoom Consultation</button>
+        <button class="btn btn-g" onclick="openZoom(event)">📹 Book a Zoom Consultation</button>
         <a href="https://github.com/MsBossyBoss" target="_blank" class="btn btn-o" style="font-size:11px;">View GitHub Portfolio</a>
       </div>
       <div class="socials">
-        <a href="https://www.linkedin.com/in/ivana-watson-b45919aa/" target="_blank" class="soc" onclick="gtag('event','social_click',{platform:'linkedin'})"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://github.com/MsBossyBoss" target="_blank" class="soc" onclick="gtag('event','social_click',{platform:'github'})"><i class="fab fa-github"></i></a>
-        <a href="https://www.facebook.com/13estheticslv" target="_blank" class="soc" onclick="gtag('event','social_click',{platform:'facebook'})"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/13esthetics/" target="_blank" class="soc" onclick="gtag('event','social_click',{platform:'instagram'})"><i class="fab fa-instagram"></i></a>
-        <a href="https://x.com/13esthetics" target="_blank" class="soc" onclick="gtag('event','social_click',{platform:'x'})"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/ivana-watson-b45919aa/" target="_blank" class="soc"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/MsBossyBoss" target="_blank" class="soc"><i class="fab fa-github"></i></a>
+        <a href="https://www.facebook.com/13estheticslv" target="_blank" class="soc"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/13esthetics/" target="_blank" class="soc"><i class="fab fa-instagram"></i></a>
+        <a href="https://x.com/13esthetics" target="_blank" class="soc"><i class="fab fa-x-twitter"></i></a>
       </div>
     </div>
     <div>
@@ -488,28 +377,23 @@ footer{background:var(--dark);color:var(--champagne);padding:36px 6%;display:fle
   </div>
 </section>
 
-<!-- ══ FOOTER ═══════════════════════════════════════════════ -->
 <footer>
   <div class="f-logo">13<span>Esthetics</span></div>
   <div class="f-copy">© 2025 IvanaWatsonLLC · www.ivanawatson.com</div>
   <div class="f-links">
     <a href="#about">About</a>
     <a href="#portfolio">Portfolio</a>
-    <a href="#devices">Shop</a>
+    <a href="shop.html">Shop</a>
     <a href="#contact">Contact</a>
   </div>
 </footer>
 
-<!-- ══ AI CHAT WIDGET ═══════════════════════════════════════ -->
-<button id="chat-btn" onclick="toggleChat()" title="Chat with Glambot — Beauty AI">
+<button id="chat-btn" onclick="toggleChat()" title="Chat with Glambot">
   <i class="fa fa-comment-dots"></i>
 </button>
 <div id="chat-panel">
   <div class="ch-head">
-    <div>
-      <h4>Glambot — Beauty AI</h4>
-      <p>13Esthetics · Personalized skincare advisor</p>
-    </div>
+    <div><h4>Glambot — Beauty AI</h4><p>13Esthetics · Personalized skincare advisor</p></div>
     <button class="ch-close" onclick="toggleChat()"><i class="fa fa-times"></i></button>
   </div>
   <div class="ch-msgs" id="ch-msgs"></div>
@@ -519,7 +403,6 @@ footer{background:var(--dark);color:var(--champagne);padding:36px 6%;display:fle
   </div>
 </div>
 
-<!-- ══ ZOOM MODAL ════════════════════════════════════════════ -->
 <div id="zoom-modal" onclick="closeZoomOverlay(event)">
   <div class="zm-box">
     <button class="zm-close" onclick="document.getElementById('zoom-modal').classList.remove('open')"><i class="fa fa-times"></i></button>
@@ -528,215 +411,74 @@ footer{background:var(--dark);color:var(--champagne);padding:36px 6%;display:fle
     <p>Connect with Ivana directly for personalized skincare consultations, beauty tech advice, or collaboration inquiries.</p>
     <div class="zm-steps">
       <div class="zm-step"><div class="zm-num">1</div><span>Log into your Zoom account at zoom.us</span></div>
-      <div class="zm-step"><div class="zm-num">2</div><span>Click below — you'll join Ivana's personal meeting room</span></div>
-      <div class="zm-step"><div class="zm-num">3</div><span>You're connected directly through the browser — no download needed</span></div>
+      <div class="zm-step"><div class="zm-num">2</div><span>Click below to join Ivana's personal meeting room</span></div>
+      <div class="zm-step"><div class="zm-num">3</div><span>Connected directly through the browser</span></div>
     </div>
-    <a href="https://zoom.us/j/YOUR_MEETING_ID" target="_blank" class="btn btn-g"
-      style="width:100%;display:block;margin-bottom:10px;"
-      onclick="gtag('event','zoom_consultation_click');fbq('track','Schedule');">
-      Join Zoom Meeting
-    </a>
-    <a href="mailto:iwatson9@my.devry.edu?subject=Zoom Consultation Request"
-      class="btn btn-o" style="width:100%;display:block;font-size:11px;">
-      Email to Schedule Instead
-    </a>
+    <a href="https://zoom.us/j/YOUR_MEETING_ID" target="_blank" class="btn btn-g" style="width:100%;display:block;margin-bottom:10px;">Join Zoom Meeting</a>
+    <a href="mailto:iwatson9@my.devry.edu?subject=Zoom Consultation Request" class="btn btn-o" style="width:100%;display:block;font-size:11px;">Email to Schedule Instead</a>
   </div>
 </div>
 
-<!-- ══ SCRIPTS ═══════════════════════════════════════════════ -->
 <script>
-// ─ Nav scroll shadow ─
 window.addEventListener('scroll',function(){
   document.getElementById('nav').classList.toggle('scrolled',window.scrollY>40);
 });
-
-// ─ Mobile menu ─
-function toggleMenu(){
-  var m=document.getElementById('mob-menu');
-  m.style.display=m.style.display==='block'?'none':'block';
-}
+function toggleMenu(){var m=document.getElementById('mob-menu');m.style.display=m.style.display==='block'?'none':'block';}
 function closeMenu(){document.getElementById('mob-menu').style.display='none';}
 
-// ─ Skill bars (animated on scroll) ─
-var skills=[
-  {n:'HTML & CSS',p:85},{n:'Python',p:75},{n:'Java',p:70},
-  {n:'JavaScript',p:65},{n:'Database Management',p:72},
-  {n:'Git & GitHub',p:82},{n:'Web Development',p:78}
-];
+var skills=[{n:'HTML & CSS',p:85},{n:'Python',p:75},{n:'Java',p:70},{n:'JavaScript',p:65},{n:'Database Management',p:72},{n:'Git & GitHub',p:82},{n:'Web Development',p:78}];
 var sb=document.getElementById('sk-bars');
-skills.forEach(function(s){
-  sb.innerHTML+='<div class="sk-item"><div class="sk-row"><span>'+s.n+'</span><span>'+s.p+'%</span></div>'
-    +'<div class="sk-bar"><div class="sk-fill" data-w="'+s.p+'"></div></div></div>';
-});
-var obs=new IntersectionObserver(function(entries){
-  entries.forEach(function(e){
-    if(e.isIntersecting){
-      document.querySelectorAll('.sk-fill').forEach(function(el){
-        el.style.width=el.getAttribute('data-w')+'%';
-      });
-      obs.disconnect();
-    }
-  });
-},{threshold:.3});
+skills.forEach(function(s){sb.innerHTML+='<div class="sk-item"><div class="sk-row"><span>'+s.n+'</span><span>'+s.p+'%</span></div><div class="sk-bar"><div class="sk-fill" data-w="'+s.p+'"></div></div></div>';});
+var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){document.querySelectorAll('.sk-fill').forEach(function(el){el.style.width=el.getAttribute('data-w')+'%';});obs.disconnect();}});},{threshold:.3});
 obs.observe(document.getElementById('sk-bars'));
 
-// ─ IoT Learning Roadmap ─
 var roadmap=[
-  {ic:'fa-microchip',t:'Hardware Design Fundamentals',
-   d:'Arduino & Raspberry Pi, circuit design, PCB prototyping',
-   url:'https://www.coursera.org/learn/arduino-platform'},
-  {ic:'fa-wifi',t:'IoT Development',
-   d:'MQTT, BLE, Zigbee, sensors & wireless protocols',
-   url:'https://www.udemy.com/topic/internet-of-things/'},
-  {ic:'fa-bolt',t:'Embedded Systems',
-   d:'Microcontrollers, real-time OS, power management',
-   url:'https://www.edx.org/learn/embedded-systems'},
-  {ic:'fa-flask',t:'Biomedical Device Basics',
-   d:'FDA 510(k), biocompatibility & electrical safety standards',
-   url:'https://www.fda.gov/medical-devices'},
-  {ic:'fa-cube',t:'3D Modeling & Prototyping',
-   d:'Fusion 360 for enclosures, 3D printing device housing',
-   url:'https://www.autodesk.com/products/fusion-360/free-trial'}
+  {ic:'fa-microchip',t:'Hardware Design Fundamentals',d:'Arduino & Raspberry Pi, circuit design, PCB prototyping',url:'https://www.coursera.org/learn/arduino-platform'},
+  {ic:'fa-wifi',t:'IoT Development',d:'MQTT, BLE, Zigbee, sensors & wireless protocols',url:'https://www.udemy.com/topic/internet-of-things/'},
+  {ic:'fa-bolt',t:'Embedded Systems',d:'Microcontrollers, real-time OS, power management',url:'https://www.edx.org/learn/embedded-systems'},
+  {ic:'fa-flask',t:'Biomedical Device Basics',d:'FDA 510(k), biocompatibility & electrical safety standards',url:'https://www.fda.gov/medical-devices'},
+  {ic:'fa-cube',t:'3D Modeling & Prototyping',d:'Fusion 360 for enclosures, 3D printing device housing',url:'https://www.autodesk.com/products/fusion-360/free-trial'}
 ];
 var rm=document.getElementById('roadmap');
-roadmap.forEach(function(r){
-  rm.innerHTML+='<div class="rd-item">'
-    +'<div class="rd-icon"><i class="fa '+r.ic+'"></i></div>'
-    +'<div class="rd-info"><h4>'+r.t+'</h4><p>'+r.d+'</p>'
-    +'<a href="'+r.url+'" target="_blank" onclick="gtag(\'event\',\'roadmap_click\',{course:\''+r.t+'\'})">Explore Training →</a>'
-    +'</div></div>';
-});
+roadmap.forEach(function(r){rm.innerHTML+='<div class="rd-item"><div class="rd-icon"><i class="fa '+r.ic+'"></i></div><div class="rd-info"><h4>'+r.t+'</h4><p>'+r.d+'</p><a href="'+r.url+'" target="_blank">Explore Training →</a></div></div>';});
 
-// ─ GitHub Repos ─
 fetch('https://api.github.com/users/MsBossyBoss/repos?per_page=9&sort=updated')
   .then(function(r){return r.json();})
   .then(function(repos){
     var g=document.getElementById('repos');
-    if(!Array.isArray(repos)||!repos.length){
-      g.innerHTML='<p style="color:var(--medium);font-size:13px;">No public repos yet — <a href="https://github.com/MsBossyBoss" target="_blank">visit GitHub</a>.</p>';
-      return;
-    }
+    if(!Array.isArray(repos)||!repos.length){g.innerHTML='<p style="color:var(--medium);font-size:13px;">No public repos yet.</p>';return;}
     g.innerHTML='';
-    repos.forEach(function(r){
-      g.innerHTML+='<div class="repo-card">'
-        +'<div class="repo-n">'+r.name+'</div>'
-        +'<div class="repo-d">'+(r.description||'No description provided.')+'</div>'
-        +'<div class="repo-m"><span><span class="lang-dot"></span>'+(r.language||'—')+'</span>'
-        +'<span><i class="fa fa-star" style="font-size:9px"></i> '+r.stargazers_count+'</span></div>'
-        +'<a href="'+r.html_url+'" target="_blank" class="repo-a" '
-        +'onclick="gtag(\'event\',\'repo_click\',{repo:\''+r.name+'\'})">View Repo →</a>'
-        +'</div>';
-    });
-  })
-  .catch(function(){
-    document.getElementById('repos').innerHTML='<p style="color:var(--medium);font-size:13px;">'
-      +'Could not load repositories. <a href="https://github.com/MsBossyBoss" target="_blank">View on GitHub →</a></p>';
-  });
+    repos.forEach(function(r){g.innerHTML+='<div class="repo-card"><div class="repo-n">'+r.name+'</div><div class="repo-d">'+(r.description||'No description provided.')+'</div><div class="repo-m"><span><span class="lang-dot"></span>'+(r.language||'—')+'</span><span><i class="fa fa-star" style="font-size:9px"></i> '+r.stargazers_count+'</span></div><a href="'+r.html_url+'" target="_blank" class="repo-a">View Repo →</a></div>';});
+  }).catch(function(){document.getElementById('repos').innerHTML='<p style="color:var(--medium);font-size:13px;">Could not load repositories. <a href="https://github.com/MsBossyBoss" target="_blank">View on GitHub →</a></p>';});
 
-// ─ PayPal Smart Buttons ─
-var ppItems=[
-  {id:'pp-1',name:'LED Glow Therapy Wand',price:'89.00'},
-  {id:'pp-2',name:'Microcurrent Face Lift Tool',price:'129.00'},
-  {id:'pp-3',name:'Cryo Glow Roller',price:'64.00'}
-];
-if(typeof paypal!=='undefined'){
-  ppItems.forEach(function(item){
-    paypal.Buttons({
-      createOrder:function(data,actions){
-        return actions.order.create({
-          purchase_units:[{description:item.name,amount:{value:item.price}}]
-        });
-      },
-      onApprove:function(data,actions){
-        return actions.order.capture().then(function(details){
-          gtag('event','purchase',{currency:'USD',value:parseFloat(item.price),
-            transaction_id:details.id,items:[{item_name:item.name}]});
-          fbq('track','Purchase',{currency:'USD',value:parseFloat(item.price),
-            content_name:item.name});
-          alert('Thank you, '+details.payer.name.given_name+'! Order confirmed. 🌸');
-        });
-      },
-      style:{layout:'horizontal',color:'gold',shape:'rect',label:'buynow',height:40}
-    }).render('#'+item.id);
-  });
-}
-
-// ─ Contact form ─
 function submitForm(){
-  var n=document.getElementById('cf-n').value.trim();
-  var e=document.getElementById('cf-e').value.trim();
-  var m=document.getElementById('cf-m').value.trim();
-  var s=document.getElementById('cf-st');
+  var n=document.getElementById('cf-n').value.trim(),e=document.getElementById('cf-e').value.trim(),m=document.getElementById('cf-m').value.trim(),s=document.getElementById('cf-st');
   if(!n||!e||!m){s.textContent='Please fill in all required fields.';s.style.color='#c04030';return;}
-  gtag('event','contact_form_submit');
-  fbq('track','Contact');
-  s.style.color='var(--gold)';
-  s.textContent='Message sent! Ivana will get back to you soon. ✨';
+  s.style.color='var(--gold)';s.textContent='Message sent! Ivana will get back to you soon. ✨';
   ['cf-n','cf-e','cf-s','cf-m'].forEach(function(id){document.getElementById(id).value='';});
 }
-
-// ─ Zoom modal ─
 function openZoom(e){if(e)e.preventDefault();document.getElementById('zoom-modal').classList.add('open');}
 function closeZoomOverlay(e){if(e.target===document.getElementById('zoom-modal'))document.getElementById('zoom-modal').classList.remove('open');}
 
-// ─ AI Chat (Glambot) ─
 var chatOpen=false,chatHistory=[];
-var SYSTEM='You are Glambot, the AI beauty advisor for 13Esthetics — Ivana Watson\'s skincare and beauty tech brand. You are warm, knowledgeable, and encouraging. You specialize in esthetics, skincare science, LED light therapy, microcurrent, anti-aging devices, and natural DIY skin remedies. Your signature style: you ALWAYS ask at least one thoughtful follow-up question before giving a recommendation so you can truly personalize your advice. Ask about skin type, main concerns, lifestyle habits, and goals. You recommend products from 13Esthetics when appropriate (LED Glow Therapy Wand $89, Microcurrent Face Lift Tool $129, Cryo Glow Roller $64), give professional skincare advice, and share DIY natural remedies. Keep responses warm, concise, and conversational. Always end with a follow-up question to learn more about the customer. Never give medical diagnoses.';
-
+var SYSTEM='You are Glambot, the AI beauty advisor for 13Esthetics — Ivana Watson\'s skincare and beauty tech brand. You specialize in esthetics, skincare science, LED light therapy, microcurrent, anti-aging devices, and natural DIY skin remedies. Always ask at least one follow-up question to personalize your advice. Keep responses warm, concise, and conversational. Never give medical diagnoses.';
 function toggleChat(){
   chatOpen=!chatOpen;
   document.getElementById('chat-panel').classList.toggle('open',chatOpen);
   var msgs=document.getElementById('ch-msgs');
-  if(chatOpen&&msgs.children.length===0){
-    addMsg('bot','Hi, beautiful! I\'m Glambot — your personal skincare AI from 13Esthetics. ✨\n\nI\'m here to help with skincare advice, device recommendations, and DIY remedies — all personalized to YOU.\n\nTo get us started: what\'s your biggest skin concern right now?');
-  }
-  if(chatOpen)gtag('event','chat_opened');
+  if(chatOpen&&msgs.children.length===0){addMsg('bot','Hi, beautiful! I\'m Glambot — your personal skincare AI from 13Esthetics. ✨\n\nWhat\'s your biggest skin concern right now?');}
 }
-
-function addMsg(role,text){
-  var c=document.getElementById('ch-msgs');
-  var d=document.createElement('div');
-  d.className='msg '+role;
-  d.style.whiteSpace='pre-wrap';
-  d.textContent=text;
-  c.appendChild(d);
-  c.scrollTop=c.scrollHeight;
-  return d;
-}
-
+function addMsg(role,text){var c=document.getElementById('ch-msgs'),d=document.createElement('div');d.className='msg '+role;d.style.whiteSpace='pre-wrap';d.textContent=text;c.appendChild(d);c.scrollTop=c.scrollHeight;return d;}
 async function sendChat(){
-  var inp=document.getElementById('ch-inp');
-  var txt=inp.value.trim();
-  if(!txt)return;
-  inp.value='';
-  addMsg('user',txt);
-  chatHistory.push({role:'user',content:txt});
-  gtag('event','chat_message',{message_count:chatHistory.length});
-  fbq('track','CustomizeProduct');
-
+  var inp=document.getElementById('ch-inp'),txt=inp.value.trim();
+  if(!txt)return;inp.value='';addMsg('user',txt);chatHistory.push({role:'user',content:txt});
   var t=addMsg('typing','Glambot is thinking...');
   try{
-    var res=await fetch('https://api.anthropic.com/v1/messages',{
-      method:'POST',
-      headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({
-        model:'claude-sonnet-4-20250514',
-        max_tokens:1000,
-        system:SYSTEM,
-        messages:chatHistory
-      })
-    });
+    var res=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:1000,system:SYSTEM,messages:chatHistory})});
     var data=await res.json();
-    var reply=(data.content&&data.content[0]&&data.content[0].text)
-      ?data.content[0].text
-      :'I had a quick hiccup — please try again!';
-    t.remove();
-    addMsg('bot',reply);
-    chatHistory.push({role:'assistant',content:reply});
-  }catch(err){
-    t.remove();
-    addMsg('bot','Connection hiccup — please try again in a moment!');
-  }
+    var reply=(data.content&&data.content[0]&&data.content[0].text)?data.content[0].text:'I had a quick hiccup — please try again!';
+    t.remove();addMsg('bot',reply);chatHistory.push({role:'assistant',content:reply});
+  }catch(err){t.remove();addMsg('bot','Connection hiccup — please try again!');}
 }
 </script>
 </body>
